@@ -16,7 +16,5 @@ zuul:
     sbService :
       path : /sbService/**
       serviceId : springbootService
-security:
-  basic:
-    enabled: false
+
 
