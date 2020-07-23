@@ -1,0 +1,33 @@
+{
+  "name": "unusedjs",
+  "version": "0.2.2",
+  "description": "Discover the percent of unused JS on a page with this simple browser proxy",
+  "bin": {
+    "unused-js-proxy": "bin/startProxy.js"
+  },
+  "main": "lib/httpProxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gmetais/unusedjs"
+  },
+  "keywords": [
+    "performance",
+    "webperf",
+    "javascript",
+    "proxy"
+  ],
+  "author": "Gael Metais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmetais/unusedjs/issues"
+  },
+  "homepage": "https://github.com/gmetais/unusedjs",
+  "dependencies": {
+    "connect": "^3.4.1",
+    "http-proxy": "^1.14.0",
+    "istanbul": "^0.4.3"
+  }
+}
