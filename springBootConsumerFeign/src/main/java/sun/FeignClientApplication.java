@@ -18,10 +18,10 @@ import org.springframework.cloud.netflix.feign.EnableFeignClients;
 @ServletComponentScan
 @EnableDiscoveryClient
 @RefreshScope   //开启配置更新功能
-public class ConsumerClientApplication {
+public class FeignClientApplication {
     public static void main(String[] args) {
 
-        SpringApplication.run(ConsumerClientApplication.class, args);
+        SpringApplication.run(FeignClientApplication.class, args);
     }
 
 }

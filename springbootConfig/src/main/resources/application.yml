@@ -4,15 +4,14 @@ spring:
   application:
     name: springbootConfig
   profiles:
-    active: subversion
+    active: git
   cloud:
     config:
       server:
-        svn:
-          uri: https://github.com/Wt0316/spring-cloud/blob/master/application.properties
-          username: Wt0316
-          password: tk2019++
-          default-label:
+        git:
+          uri: https://github.com/Wt0316/spring-cloud/
+          default-label: master
+          search-paths: application.properties
 
 eureka:
   client:

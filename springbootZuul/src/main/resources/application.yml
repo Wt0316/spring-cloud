@@ -3,7 +3,7 @@ spring:
     name : springbootZuul
 
 server:
-  port : 6005
+  port : 7005
 
 eureka:
   client:
